@@ -1,0 +1,31 @@
+{
+    "apiVersion": "v2",
+    "description": "Pactas - The engine for your Recurring Billing & Subscription Business",
+    "swaggerVersion": "1.1",
+    "basePath": "https://sandbox.pactas.com/api/v1",
+    "apis": [
+        {
+            "path": "/contacts.json",
+            "description": "Customers"
+        }
+    ],
+    "authentication": {
+        "type": "oauth2",
+        "parameters": [
+            {
+                "name": "oauth",
+                "description": "Authentication",
+                "paramType": "custom",
+                "required": true,
+                "dataType": "string",
+                "viewClass": "OAuthFieldView"
+            }
+        ],
+        "oauth2":{
+            "client_id":"{{PACTAS_KEY}}",
+            "client_secret":"{{PACTAS_SECRET}}",
+            "auth_uri":"https://sandbox.pactas.com/oauth/authorizations/new",
+            "token_uri":"https://sandbox.pactas.com/oauth/tokens"
+        }
+    }
+}
