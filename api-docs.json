@@ -5,7 +5,7 @@
     "basePath": "https://sandbox.pactas.com/api/v1",
     "apis": [
         {
-            "path": "/contacts.json",
+            "path": "/contacts",
             "description": "Customers"
         }
     ],
