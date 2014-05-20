@@ -107,7 +107,7 @@
 				"FirstName": {
 					"type":"string",
 					"id": "http://jsonschema.net/FirstName",
-					"required":false
+					"required":true
 				},
 				"Id": {
 					"type":"string",
@@ -122,7 +122,7 @@
 				"LastName": {
 					"type":"string",
 					"id": "http://jsonschema.net/LastName",
-					"required":false
+					"required":true
 				},
 				"Locale": {
 					"type":"string",
@@ -133,33 +133,6 @@
 					"type":"string",
 					"id": "http://jsonschema.net/Notes",
 					"required":false
-				},
-				"Tag": {
-					"type":"object",
-					"id": "http://jsonschema.net/Tag",
-					"required":false,
-					"properties":{
-						"clientId": {
-							"type":"string",
-							"id": "http://jsonschema.net/Tag/clientId",
-							"required":false
-						},
-						"explanation": {
-							"type":"string",
-							"id": "http://jsonschema.net/Tag/explanation",
-							"required":false
-						},
-						"keyword": {
-							"type":"string",
-							"id": "http://jsonschema.net/Tag/keyword",
-							"required":false
-						},
-						"trackingSource": {
-							"type":"string",
-							"id": "http://jsonschema.net/Tag/trackingSource",
-							"required":false
-						}
-					}
 				},
 				"VatId": {
 					"type":"string",
