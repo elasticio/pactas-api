@@ -1,7 +1,15 @@
-# Zendesk API Description
+# Pactas API Description
 
-This project contains a Swagger API for [Zendesk](http://zendesk.com) - a customer support platform.
-Before going into the description two words about **Swagger**:
+This project contains a necessary files for elastic.io component for [Pactas](http://pactas.com) API - The engine for your
+Recurring Billing & Subscription Business.
+
+## Content description
+
+There are two must-have resources you need for an elastic.io component
+
+ * Root of component descriptor - **Swagger** descriptor of a component interface (for REST interfaces)
+ * Component icon - a 64x64 transparent PNG file.
+
 
 ## Swagger
 
