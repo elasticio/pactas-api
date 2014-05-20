@@ -7,7 +7,7 @@ Recurring Billing & Subscription Business.
 
 There are two must-have resources you need for an elastic.io component
 
- * Root of component descriptor - **Swagger** descriptor of a component interface (for REST interfaces)
+ * Root of component descriptor file called ```api-docs.json```. It is a **Swagger**-like descriptor of a component interface (for REST interfaces)
  * Component icon - a 64x64 transparent PNG file.
 
 
