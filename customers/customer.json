@@ -1,0 +1,85 @@
+{
+    "type": "object",
+    "properties": {
+        "Id": {
+            "title": "Id",
+            "type": "string",
+            "required": true
+        },
+        "ExternalCustomerId": {
+            "title": "External Customer Id",
+            "type": "string",
+            "required": true
+        },
+        "CompanyName": {
+            "title": "Company Name",
+            "type": "string",
+            "required": false
+        },
+        "FirstName": {
+            "title": "First Name",
+            "type": "string",
+            "required": true
+        },
+        "LastName": {
+            "title": "Last Name",
+            "type": "string",
+            "required": true
+        },
+        "VatId": {
+            "title": "VAT Id",
+            "type": "string",
+            "required": false
+        },
+        "EmailAddress": {
+            "title": "Email",
+            "type": "string",
+            "required": false
+        },
+        "Address": {
+            "type": "object",
+            "properties": {
+                "AddressLine1": {
+                    "title": "Address Line 1",
+                    "type": "string",
+                    "required": false
+                },
+                "Street": {
+                    "title": "Street",
+                    "type": "string",
+                    "required": false
+                },
+                "HouseNumber": {
+                    "title": "House Number",
+                    "type": "string",
+                    "required": false
+                },
+                "PostalCode": {
+                    "title": "Postal Code",
+                    "type": "integer",
+                    "required": false
+                },
+                "City": {
+                    "title": "City",
+                    "type": "string",
+                    "required": false
+                },
+                "Country": {
+                    "title": "Country",
+                    "type": "string",
+                    "required": false
+                }
+            }
+        },
+        "CustomerType": {
+            "title": "Customer Type",
+            "type": "string",
+            "required": false
+        },
+        "CustomerName": {
+            "title": "Customer Name",
+            "type": "string",
+            "required": false
+        }
+    }
+}
