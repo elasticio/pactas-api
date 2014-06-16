@@ -1,5 +1,5 @@
-var pactas = require("./../pactas.js");
-var messages = require("../../messages.js");
+var pactas = require("../pactas.js");
+var messages = require("../messages.js");
 var request = require("request");
 var _ = require("underscore");
 var Q = require("q");
