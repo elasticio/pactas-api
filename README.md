@@ -3,42 +3,6 @@
 This project contains a necessary files for elastic.io component for [Pactas](http://pactas.com) API - The engine for your
 Recurring Billing & Subscription Business.
 
-## Content description
-
-There are two must-have resources you need for an elastic.io component
-
- * Root of component descriptor file called ```api-docs.json```. It is a **Swagger**-like descriptor of a component interface (for REST interfaces)
- * Component icon - a 64x64 transparent PNG file.
-
-
-## Swagger
-
-From [Swagger Wordnik](http://swagger.wordnik.com/) site:
-
->Swagger is a specification and complete framework implementation for
->describing, producing, consuming, and visualizing RESTful web services.
-
-We at elastic.io chosen Swagger as our first REST service description language, other languages
-(e.g. *WSDL* for SOAP Services or *WADL* or *Mashape* description languages will follow).
-
-Swagger have following advantages over other alternatives:
-
-* It's open source project distributed under Apache License, Version 2.0
-* It has a modular structure (core, code generator, UI, etc)
-* It has a significant traction and community acceptance
-
-We believe that even if you don't use Swagger right now for documentaiton of your REST API you might benifit
-from it in the long-term e.g. from Swagger Code Generation.
-
-## Contract
-
-Goal of this desription is to provide an easy way to integrate Zendesk API into elastic.io platform.
-For that following should be stored in this Git repository: 
-* It should have an *index* document called ```/api-docs.json```, typical Swagger structure that declares an entry point and references individual *resource* description files.
-* It should have an icon called ```/logo.png```. This logo should be 64x64 pixels large and have a transparent background.
-
-That's more or less it.
-
 License
 -------
 
